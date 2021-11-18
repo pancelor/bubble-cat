@@ -14,8 +14,7 @@ if(sz~=sc)sc+=d d+=5
 b=btnp()ox=px oy=py
 if(b\16>0)b=-1
 if(b>0)fcn=b*.5938&.75
-if(fcn and not fc)fc,fcn=fcn
-if(fc)px+=cos(fc)py+=sin(fc)
+if(fc)px+=cos(fc)py+=sin(fc)else fc,fcn=fcn
 if(abs(px-3)>3 or abs(py-3)>3)px,py,fc=ox,oy
 ?"★⁵8d🐱",px*9+1,py*9+4,7
 
