@@ -34,8 +34,8 @@ for i=bln-2,0,-2 do
  if(b<0)fa(u,v,"-6")
 end
 for f in all(fl)do
- ?f[4],f[1],f[2],ord(f[4])^♥
- d=f[2]-f[3]
+ x,y,z,n=unpack(f)d=y-z
+ ?n,x,y,ord(n)^♥
  f[2]-=d>>3
  del(fl,d<1and f)
 end
