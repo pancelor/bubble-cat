@@ -4,20 +4,14 @@ function fa(x,y,n)sz+=n add(fl,{x,y,y-7,n})end
 for i=0,48do
 x,y=i%7,i\7if(rnd()<.25and i~=24)poke(bln,x,y)bln+=2
 end
-::_::
-?"⁶1⁶c5"
-rf(0,t(),64,64,1)
-d=sgn(sz-sc)
+::_::d=sgn(sz-sc)ox=px?"⁶1⁶c5"
 if(sz~=sc)sc+=d d+=5
-?"⁶w⁶t"..sc,24,27,5+d
-
-b=btnp()ox=px oy=py
+b=btnp()rf(0,t(),64,64,1)oy=py?"⁶w⁶t"..sc,24,27,5+d
 if(b\16>0)b=-1
 if(b>0)fcn=b*.5938&.75
 if(fc)px+=cos(fc)py+=sin(fc)else fc,fcn=fcn
 if(abs(px-3)>3 or abs(py-3)>3)px,py,fc=ox,oy
 ?"★⁵8d🐱",px*9+1,py*9+4,7
-
 for i=bln-2,0,-2do
 y=@(i+1)u=@i*9v=y*9
 if(rnd()<.01)fillp(rnd()<<16)
