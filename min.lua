@@ -2,7 +2,7 @@ poke(13-😐,3)sc=0sz=0fl={}rf=rectfill
 ::g::bln=0px=3py=3
 function fa(x,y,n)sz+=n add(fl,{x,y,y-7,n})end
 for i=0,48do
-x,y=i%7,i\7if(rnd()<.25and i~=24)poke(bln,x,y)bln+=2
+x,y=i%7,i\7if(rnd()<.25and i~=24)bln+=2poke(bln,x,y)
 end
 ::_::d=sgn(sz-sc)ox=px?"⁶1⁶c5"
 if(sz~=sc)sc+=d d+=5
@@ -12,13 +12,13 @@ if(b>0)fcn=b*.5938&.75
 if(fc)px+=cos(fc)py+=sin(fc)else fc,fcn=fcn
 if(abs(px-3)>3 or abs(py-3)>3)px,py,fc=ox,oy
 ?"★⁵8d🐱",px*9+1,py*9+4,7
-for i=bln-2,0,-2do
+for i=2,bln,2do
 y=@(i+1)u=@i*9v=y*9
 if(rnd()<.01)fillp(rnd()<<16)
 rf(1+u,1+v,u+8,v+8,i/2|8)fillp()
 if @i==px and y==py then
  px,py,fc=ox,oy
- bln-=2poke2(i,%bln)fa(u,v,"+1")?"⁷i6v1d1"
+ poke2(i,%bln)bln-=2fa(u,v,"+1")?"⁷i6v1d1"
 end
 if(b<0)fa(u,v,"-6")
 end
