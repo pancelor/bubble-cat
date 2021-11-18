@@ -2,7 +2,7 @@ poke(13-😐,3)
 sc=0sz=0fl={}rf=rectfill
 ::g::
 bln=0px=3py=3
-function fa(x,y,n)sz+=n add(fl,{x=x,y=y,z=y-7,n=n})end
+function fa(x,y,n)sz+=n add(fl,{x,y,y-7,n})end
 for i=0,48 do
  x,y=i%7,i\7if(rnd()<.25and i~=24)poke(bln,x,y)bln+=2
 end
@@ -34,10 +34,10 @@ for i=bln-2,0,-2 do
  if(b<0)fa(u,v,"-6")
 end
 for f in all(fl)do
- ?f.n,f.x,f.y,ord(f.n)^♥
- d=f.y-f.z
- f.y-=d>>3
- if(d<1)del(fl,f)
+ ?f[4],f[1],f[2],ord(f[4])^♥
+ d=f[2]-f[3]
+ f[2]-=d>>3
+ del(fl,d<1and f)
 end
 if(bln==0)b=-1fa(24,24,"+10")?"⁷ceg4⁶4"
 if(b==-1)goto g
