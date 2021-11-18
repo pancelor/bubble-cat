@@ -25,7 +25,7 @@ x \d\s(and|or)
 x unpack better
 x b|16
 x d=q and"-6"
-* ==0 <1 many?
+x ==0 <1 many?
 
 goal:
 * 560 + 66 = 626

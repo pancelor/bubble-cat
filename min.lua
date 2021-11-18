@@ -13,7 +13,7 @@ if(abs(px-3)>3or abs(py-3)>3)px,py,fc=ox,oy
 for i=2,bln,2do
 d=q and"-6"v=@(i+1)*9u=@i*9rf(u+4,v+4,3,i/2|8)
 if(py==v\9and @i==px)px,py,fc=ox,oy poke2(i,%bln)bln-=2d="+1"?"⁷i6v1d1"
-if(bln==0)q=1d="+10"?"⁷ceg4⁶4"
+if(bln<1)q=1d="+10"?"⁷ceg4⁶4"
 if(d)add(fl,{d,u,v,ord(d)^♥})sz+=d
 end
 for f in all(fl)do
