@@ -562,6 +562,11 @@ function divmod(x,y)
 end
 
 -->8
+--dev_seed=0x.4444
+seed=dev_seed or rnd()
+printh("seed: "..tohex(seed))
+srand(seed)
+
 #include min.lua
 
 __gfx__
