@@ -562,7 +562,7 @@ function divmod(x,y)
 end
 
 -->8
-dev_seed=0x.7fb5
+--dev_seed=0x.7fb5
 seed=dev_seed or rnd()
 printh("seed: "..tohex(seed))
 srand(seed)

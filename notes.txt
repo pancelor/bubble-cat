@@ -31,6 +31,9 @@ x d=q and"-6"
 x ==0 <1 many?
 x ... in fa
 * b*.5938&.75 shorter?
+x memset +_sfx()
 
 goal:
 * 280*2 - 10 special chars (twitter cost) + 53 compress.sh savings = 603
+* 603 (method: run compress, copy into twitter, delete final newline, add 280, add uncompressed count)
+
