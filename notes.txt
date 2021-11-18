@@ -9,3 +9,6 @@ fc  | facing dir (0,.25,.5,.75)
 fcn | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
+
+
+--  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
