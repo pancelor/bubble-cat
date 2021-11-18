@@ -20,8 +20,7 @@ if(b>0)fcn=b*.5938&.75
 if(fcn and not fc)fc,fcn=fcn
 if(fc)px+=cos(fc)py+=sin(fc)
 ty=abs(px-3)>3or abs(py-3)>3?"🐱",px*9+1,py*9+2,7
-for i=2,bln,2do
-pq(i,bln)
+for i=bln,2,-2do
 d=q and"-5"v=@(i+1)*9u=@i*9rf(u+4,v+4,3,i/2|8)
 if(py==v\9and @i==px)foo(i)ty=1poke2(i,%bln)bln-=2foo()d="+1"?"⁷i6v1d1"
 if(bln<1)d="+10"?"⁷ceg4⁶4"
