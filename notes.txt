@@ -17,12 +17,13 @@ rf  | rectfill
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
 
 ideas
-* float linear
+x float linear
 * rm sfx
-* px => px*9
-* \d\s(and|or)
+x px => px*9
+x \d\s(and|or)
 * rm score ticker
 
 goal:
 * 560 + ~80 = 640
 * ... in fa
+* check lag
