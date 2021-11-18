@@ -11,15 +11,15 @@ if(b\16>0)b=-1
 if(b>0)fcn=b*.5938&.75
 if(fc)px+=cos(fc)py+=sin(fc)else fc,fcn=fcn
 if(abs(px-3)>3 or abs(py-3)>3)px,py,fc=ox,oy
-?"★⁵8d🐱",px*9+1,py*9+4,7
+?"★⁵8d🐱",px*9,py*9+3,7
 for i=2,bln,2do
-v=@(i+1)*9u=@i*9rf(1+u,1+v,u+8,v+8,i/2|8)
+v=@(i+1)*9u=@i*9rf(u,v,u+7,v+7,i/2|8)
 if(@i==px and v\9==py)px,py,fc=ox,oy poke2(i,%bln)bln-=2fa(u,v,"+1")?"⁷i6v1d1"
 if(b<0)fa(u,v,"-6")
 end
 for f in all(fl)do
- x,y,z,n=unpack(f)d=y-z?n,x,y,ord(n)^♥
- f[2]-=d>>3del(fl,d<1and f)
+x,y,z,n=unpack(f)d=y-z?n,x,y,ord(n)^♥
+f[2]-=d>>3del(fl,d<1and f)
 end
 if(bln==0)b=-1fa(24,24,"+10")?"⁷ceg4⁶4"
 if(b==-1)goto g
