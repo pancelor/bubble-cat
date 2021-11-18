@@ -1,13 +1,3 @@
-function foo(i)
- if i then pq(i,bln) end
- s=""
- for i=2,bln,2 do
-  s..=qq(peek(i,2))..","
- end
- s..=qq("(pl:",px,py,")")
- pq(s)
-end
-
 poke(13-😐,3)sc=0sz=0fl={}rf=circfill
 ::g::bln,fc=0px=3py=3
 for j=0,12do
@@ -22,10 +12,9 @@ if(fc)px+=cos(fc)py+=sin(fc)
 ty=abs(px-3)>3or abs(py-3)>3?"🐱",px*9+1,py*9+2,7
 for i=bln,2,-2do
 d=q and"-5"v=@(i+1)*9u=@i*9rf(u+4,v+4,3,i/2|8)
-if(py==v\9and @i==px)foo(i)ty=1poke2(i,%bln)bln-=2foo()d="+1"?"⁷i6v1d1"
-if(bln<1)d="+10"?"⁷ceg4⁶4"
+if(py==v\9and @i==px)ty=1poke2(i,%bln)bln-=2d="+1"?"⁷i6v1d1"
+if(bln<1)q=1d="+10"?"⁷ceg4⁶4"
 if(d)add(fl,{d,u,v,d*11})sz+=d
--- if(py==v\9and @i==px)break
 end
 if(ty)px,py,fc=ox,oy
 for f in all(fl)do
