@@ -15,3 +15,10 @@ rf  | rectfill
 
 
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
+
+ideas
+* float linear
+* rm sfx
+* px => px*9
+* \d\s(and|or)
+* rm score ticker
