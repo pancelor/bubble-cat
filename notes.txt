@@ -1,0 +1,10 @@
+sc  | displayed score
+sz  | actual score
+bln | num of stored coords (2x the number of blocks)
+px  | player grid x
+py  | player grid y
+ox  | old player grid x
+oy  | old player grid y
+fc  | facing dir (0,.25,.5,.75)
+fcn | queued facing dir
+fl  | list of score floaters
