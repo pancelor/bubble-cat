@@ -16,10 +16,7 @@ for i=2,bln,2do
 y=@(i+1)u=@i*9v=y*9
 if(rnd()<.01)fillp(rnd()<<16)
 rf(1+u,1+v,u+8,v+8,i/2|8)fillp()
-if @i==px and y==py then
- px,py,fc=ox,oy
- poke2(i,%bln)bln-=2fa(u,v,"+1")?"⁷i6v1d1"
-end
+if(@i==px and y==py)px,py,fc=ox,oy poke2(i,%bln)bln-=2fa(u,v,"+1")?"⁷i6v1d1"
 if(b<0)fa(u,v,"-6")
 end
 for f in all(fl)do
