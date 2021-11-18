@@ -9,7 +9,7 @@ rf(32,32,64-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
 if(b>0)fcn=b*.5938&.75
 if(not fc)fc,fcn=fcn
 if(fc)px+=cos(fc)py+=sin(fc)
-ty=abs(px-3)>3or abs(py-3)>3?"🐱",px*9+1,py*9+2,7
+ty=abs(px-3)>3or abs(py-3)>3?"★⁵8d🐱",px*9+1,py*9+3,7
 for i=bln,2,-2do
 d=q and"-5"v=@(i+1)*9u=@i*9rf(u+4,v+4,3,i/2|8)
 if(py==v\9and @i==px)ty=1poke2(i,%bln)bln-=2d="+1"?"⁷i6v1d1"
