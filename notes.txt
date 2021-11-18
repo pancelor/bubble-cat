@@ -20,8 +20,8 @@ ty  | revert player pos
 ideas
 * rm sfx
 * rm score ticker
-* get seed code
-* check lag
+x get seed code
+x check lag
 x float linear
 x px => px*9
 x \d\s(and|or)
@@ -33,4 +33,4 @@ x ... in fa
 * b*.5938&.75 shorter?
 
 goal:
-* 560 + 66 = 626
+* 280*2 - 10 special chars (twitter cost) + 53 compress.sh savings = 603
