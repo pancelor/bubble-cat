@@ -1,4 +1,4 @@
-poke(13-😐,3)fl={}sc=0sz=0rf=circfill::g::bn,fc=0px=3py=3for j=0,12do
+poke(13-😐,3)fl={}sc=0sz=0rf=circfill::g::bn=0px=3py=3for j=0,12do
 i=rnd(49)bn+=2poke(bn,i%7,i\7)end
 while t()<64do
 b=btnp()q=b>16and"⁷fb2"d=sgn(sz-sc)ox=px?"⁶1⁶c"
