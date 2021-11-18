@@ -11,7 +11,7 @@ if(b\16>0)b=-1
 if(b>0)fcn=b*.5938&.75
 if(fc)px+=cos(fc)py+=sin(fc)else fc,fcn=fcn
 if(abs(px-3)>3or abs(py-3)>3)px,py,fc=ox,oy
-?"★⁵8d🐱",px*9,py*9+3,7
+?"🐱",px*9,py*9,7
 for i=2,bln,2do
 v=@(i+1)*9u=@i*9rf(u,v,u+7,v+7,i/2|8)
 if(@i==px and v\9==py)px,py,fc=ox,oy poke2(i,%bln)bln-=2fa(u,v,"+1")?"⁷i6v1d1"

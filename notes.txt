@@ -22,3 +22,6 @@ ideas
 * px => px*9
 * \d\s(and|or)
 * rm score ticker
+
+goal:
+* 560 + ~80 = 640
