@@ -7,7 +7,7 @@ end
 if(sz~=sc)sc+=d d+=6
 rf(32,32,64-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
 if(b>0)fcn=b*.5938&.75
-if(fcn and not fc)fc,fcn=fcn
+if(not fc)fc,fcn=fcn
 if(fc)px+=cos(fc)py+=sin(fc)
 ty=abs(px-3)>3or abs(py-3)>3?"🐱",px*9+1,py*9+2,7
 for i=bln,2,-2do
