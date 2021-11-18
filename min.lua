@@ -21,5 +21,5 @@ end
 for f in all(fl)do
 x,y,n=unpack(f)f[2]-=1?n,x,y,ord(n)^♥
 end
-if(b==-1)goto g
+if(b<0)goto g
 if(t()<64)goto _
