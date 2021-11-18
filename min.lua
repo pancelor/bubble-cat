@@ -5,10 +5,11 @@ function xpq(a1,b1,c1)
  a1\=1
  b1\=1
  c1\=1
+ ?"\f"..hex[a1]..a1.."\t\f"..hex[b1]..b1.."\t\f"..hex[c1]..c1
  if (a1==8 or a1==9) and b1==11 and c1==10 then pq("^^^") end
 end
 function f(x,p)
- return ((x)*p)%16
+ return ((x)^p)%16
 end
 a="-5"b="+1"c="+10"
 for p in all{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,ˇ}do xpq(f(a,p),f(b,p),f(c,p)) end 
