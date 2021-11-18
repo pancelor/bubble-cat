@@ -18,17 +18,18 @@ ty  | revert player pos
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
 
 ideas
-x float linear
 * rm sfx
+* rm score ticker
+* get seed code
+* check lag
+x float linear
 x px => px*9
 x \d\s(and|or)
-* rm score ticker
 x unpack better
 x b|16
 x d=q and"-6"
 x ==0 <1 many?
+x ... in fa
 
 goal:
 * 560 + 66 = 626
-* ... in fa
-* check lag
