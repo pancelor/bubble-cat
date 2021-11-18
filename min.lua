@@ -1,4 +1,5 @@
-poke(0x5f2c,3)
+-- poke(23-😐,16) @-1
+poke(13-😐,3)
 scr,scrz,br=0,0,0
 float={}
 
@@ -43,7 +44,7 @@ for i=#bl-1,1,-2 do
   px,py,fc=ox,oy
   deli(bl,i)
   deli(bl,i)
-  add(float,{x=x*8,y=y*8,z=y*8-7,n="+2"})
+  add(float,{x=x*8,y=y*8,z=y*8-7,n="+1"})
   ?"⁷i6v1d1"
  end
  if(b<0)add(float,{x=x*8,y=y*8,z=y*8-7,n="-6"})
