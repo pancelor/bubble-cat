@@ -1,9 +1,5 @@
-poke(13-😐,3)fl={}sc=0sz=0rf=circfill
-::g::bn,fc=0px=3py=3
-for j=0,12do
-i=rnd(49)bn+=2poke(bn,i%7,i\7)
-end
-::_::b=btnp()q=b>16d=sgn(sz-sc)ox=px?"⁶1⁶c"
+poke(13-😐,3)fl={}sc=0sz=0rf=circfill::g::bn,fc=0px=3py=3for j=0,12do
+i=rnd(49)bn+=2poke(bn,i%7,i\7)end::_::b=btnp()q=b>16d=sgn(sz-sc)ox=px?"⁶1⁶c"
 if(sz~=sc)sc+=d d+=6
 rf(32,32,64-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
 if(b>0)fn=b*.5938&.75
