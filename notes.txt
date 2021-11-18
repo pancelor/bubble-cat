@@ -13,6 +13,7 @@ fcn | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
 q   | skip this level
+ty  | revert player pos
 
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
 

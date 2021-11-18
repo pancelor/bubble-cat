@@ -1,7 +1,7 @@
 poke(13-😐,3)sc=0sz=0fl={}rf=circfill
 ::g::bln,fc=0px=3py=3
-for i=0,48do
-if(rnd()<.25and i~=24)bln+=2poke(bln,i%7,i\7)
+for j=0,12do
+i=rnd(49)bln+=2poke(bln,i%7,i\7)
 end
 ::_::b=btnp()q=b>16d=sgn(sz-sc)ox=px?"⁶1⁶c"
 if(sz~=sc)sc+=d d+=6
