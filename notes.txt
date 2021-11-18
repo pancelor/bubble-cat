@@ -12,7 +12,7 @@ fc  | facing dir (0,.25,.5,.75)
 fcn | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
-
+q   | skip this level
 
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
 
@@ -22,8 +22,11 @@ x float linear
 x px => px*9
 x \d\s(and|or)
 * rm score ticker
+* unpack better
+* b|16
+d=q and"-6"
 
 goal:
-* 560 + ~80 = 640
+* 560 + 66 = 626
 * ... in fa
 * check lag
