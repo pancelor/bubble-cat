@@ -1,6 +1,6 @@
 sc  | displayed score
 sz  | actual score
-bln | num of stored coords (2x the number of blocks)
+bn  | num of stored coords (2x the number of blocks)
     | it's also a pointer to the most recent x
     |  mem: 0 0 x1 y1 x2 y2 x3 y3 0 0 0 0
     |                       ^ bln (6)
@@ -9,7 +9,7 @@ py  | player grid y
 ox  | old player grid x
 oy  | old player grid y
 fc  | facing dir (0,.25,.5,.75)
-fcn | queued facing dir
+fn  | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
 q   | skip this level
