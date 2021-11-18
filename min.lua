@@ -14,10 +14,10 @@ for i=2,bln,2do
 d=q and"-6"v=@(i+1)*9u=@i*9rf(u+4,v+4,3,i/2|8)
 if(py==v\9and @i==px)px,py,fc=ox,oy poke2(i,%bln)bln-=2d="+1"?"⁷i6v1d1"
 if(bln==0)q=1d="+10"?"⁷ceg4⁶4"
-if(d)add(fl,{u,v,d})sz+=d
+if(d)add(fl,{d,u,v,ord(d)^♥})sz+=d
 end
 for f in all(fl)do
-x,y,n=unpack(f)f[2]-=1?n,x,y,ord(n)^♥
+f[3]-=1?unpack(f)
 end
 if(q)goto g
 if(t()<64)goto _

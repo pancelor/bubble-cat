@@ -22,9 +22,10 @@ x float linear
 x px => px*9
 x \d\s(and|or)
 * rm score ticker
-* unpack better
-* b|16
-d=q and"-6"
+x unpack better
+x b|16
+x d=q and"-6"
+* ==0 <1 many?
 
 goal:
 * 560 + 66 = 626
