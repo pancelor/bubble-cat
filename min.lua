@@ -1,7 +1,7 @@
 fl={}sc=0sz=0rf=circfill::_::bn,fc={}px=3py=3for j=0,12do?"⁶!5f2c³"
 add(bn,rnd(49)\1)end
-while t()<60do
-b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sc)ox=px?"⁶1⁶c"
+while t()<60do?"⁶1⁶c"
+b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sc)ox=px
 if(sz~=sc)sc+=d d+=6
 rf(32,32,60-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
 if(b>0)fn=b*.5938&.75

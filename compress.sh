@@ -5,7 +5,7 @@ sed -i --regexp-extended \
   -e 's/sc/n/g'\
   -e 's/sz/o/g'\
   -e 's/rf/p/g'\
-  -e 's/qq/q/g'\
+  -e 's/qu/q/g'\
   -e 's/fc/r/g'\
   -e 's/fn/s/g'\
   -e 's/ox/u/g'\
