@@ -23,5 +23,4 @@ https://pancelor.itch.io/bubble-cat
 * min.lua - dev code
 * min.p8 - dev cart
 * notes.txt - notes on what the vars mean, ideas of what to shorten, etc
-* push.sh - push to itch
 * tweets.p8 - final cart, split into two tweets
