@@ -7,10 +7,10 @@ rf(32,32,60-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
 if(b>0)fn=b*.5938&.75
 if(not fc)fc,fn=fn
 if(fc)px+=cos(fc)py+=sin(fc)
-ty=abs(px-3)>3or abs(py-3)>3?"★⁵8d🐱",px*9+1,py*9+3,7
+ty=px\7+py\7~=0?"★⁵8d🐱",px*9+1,py*9+3,7
 for j=#bn,1,-1do
 i=bn[j]d=qu and"-5"b=i\7*9a=i%7*9rf(a+4,b+4,3,j|8)
-if(py*7+px==i)ty=del(bn,i)d="+1"?"⁷d"
+if(py*7+px-px\7==i)ty=del(bn,i)d="+1"?"⁷d"
 if(#bn<1)d="+10"qu="⁷cg"
 if(d)add(fl,{d,a,b,d*11})sz+=d
 end
