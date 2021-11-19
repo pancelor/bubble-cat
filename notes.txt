@@ -32,6 +32,8 @@ x ==0 <1 many?
 x ... in fa
 * b*.5938&.75 shorter?
 x memset +_sfx()
+* bn array
+* bn hash
 
 goal:
 * 280*2 - 10 special chars (twitter cost) + 53 compress.sh savings = 603
