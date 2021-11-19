@@ -10,7 +10,7 @@ sed -i --regexp-extended \
   -e 's/fn/s/g'\
   -e 's/ox/u/g'\
   -e 's/oy/v/g'\
-  -e 's/ty/w/g'\
+  -e 's/st/w/g'\
   -e 's/px/x/g'\
   -e 's/py/y/g'\
   -e 's/bn/z/g'\

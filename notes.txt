@@ -13,7 +13,7 @@ fn  | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
 qu  | skip this level
-ty  | revert player pos
+st  | revert player pos (stop moving)
 
 b   | btn
 d   | delta
