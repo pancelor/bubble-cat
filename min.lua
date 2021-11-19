@@ -1,5 +1,5 @@
-px=3py=3fl={}sy=0sz=0rf=circfill::_::bn={}for j=0,12do?"⁶!5f2cC"
-add(bn,rnd(49)\1)end
+px=3py=3fl={}sy=0sz=0rf=circfill::_::bn={}for j=1,13do?"⁶!5f2cC"
+bn[j]=rnd(49)\1end
 while t()<60do?"⁶1⁶c"
 b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sy)ox=px
 if(sz~=sy)sy+=d d+=6
