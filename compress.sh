@@ -1,17 +1,17 @@
 #!/usr/bin/env sh
 
 sed -i --regexp-extended \
-  -e 's/fl/A/g'\
-  -e 's/sc/B/g'\
-  -e 's/sz/C/g'\
-  -e 's/rf/D/g'\
-  -e 's/bn/E/g'\
-  -e 's/fc/F/g'\
-  -e 's/px/G/g'\
-  -e 's/py/H/g'\
-  -e 's/ox/I/g'\
-  -e 's/oy/J/g'\
-  -e 's/fn/K/g'\
-  -e 's/ty/L/g'\
-  -e 's/qq/M/g'\
+  -e 's/fl/m/g'\
+  -e 's/sc/n/g'\
+  -e 's/sz/o/g'\
+  -e 's/rf/p/g'\
+  -e 's/qq/q/g'\
+  -e 's/fc/r/g'\
+  -e 's/fn/s/g'\
+  -e 's/ox/u/g'\
+  -e 's/oy/v/g'\
+  -e 's/ty/w/g'\
+  -e 's/px/x/g'\
+  -e 's/py/y/g'\
+  -e 's/bn/z/g'\
   min.lua

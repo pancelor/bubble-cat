@@ -15,6 +15,16 @@ rf  | rectfill
 qq  | skip this level
 ty  | revert player pos
 
+b   | btn
+d   | delta
+a   | coord x
+b   | coord y
+i   | index
+j   | index
+d   | delta
+a   | floater
+t   | time()
+
 --  ¹²³⁴⁵⁶⁷⁸   ᵇᶜ ᵉᶠ
 
 ideas
