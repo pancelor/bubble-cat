@@ -1,4 +1,4 @@
-poke(13-😐,3)fl={}sc=0sz=0rf=circfill::g::A,fc={}px=3py=3for j=0,12do
+fl={}sc=0sz=0rf=circfill::g::A,fc={}px=3py=3for j=0,12do?"⁶!5f2c³"
 add(A,rnd(49)\1)end
 while t()<60do
 b=btnp()q=b>16and"⁷fb2"d=sgn(sz-sc)ox=px?"⁶1⁶c"
