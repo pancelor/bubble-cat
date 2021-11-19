@@ -32,7 +32,8 @@ x ==0 <1 many?
 x ... in fa
 * b*.5938&.75 shorter?
 x memset +_sfx()
-* bn array
+x bn array
+* pre px*9
 * bn hash
 
 goal:
