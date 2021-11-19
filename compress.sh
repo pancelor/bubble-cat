@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 sed -i --regexp-extended \
-  -e 's/fl/m/g'\
-  -e 's/sc/n/g'\
-  -e 's/sz/o/g'\
+  -e 's/sy/m/g'\
+  -e 's/sz/n/g'\
+  -e 's/fl/o/g'\
   -e 's/rf/p/g'\
   -e 's/qu/q/g'\
   -e 's/fc/r/g'\

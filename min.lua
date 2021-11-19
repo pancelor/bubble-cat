@@ -1,9 +1,9 @@
-fl={}sc=0sz=0rf=circfill::_::bn,fc={}px=3py=3for j=0,12do?"⁶!5f2c³"
+fl={}sy=0sz=0rf=circfill::_::bn,fc={}px=3py=3for j=0,12do?"⁶!5f2c³"
 add(bn,rnd(49)\1)end
 while t()<60do?"⁶1⁶c"
-b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sc)ox=px
-if(sz~=sc)sc+=d d+=6
-rf(32,32,60-t(),1)oy=py?"⁶w⁶t"..sc,24,27,4+d
+b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sy)ox=px
+if(sz~=sy)sy+=d d+=6
+rf(32,32,60-t(),1)oy=py?"⁶w⁶t"..sy,24,27,4+d
 if(b>0)fn=b*.5938&.75
 if(not fc)fc,fn=fn
 if(fc)px+=cos(fc)py+=sin(fc)
@@ -20,4 +20,5 @@ a[3]-=1?unpack(a)
 end
 if(qu)?qu
 if(qu)goto _
-end
+end?"⁷s8e.e.a4bd"
+::e::goto e
