@@ -45,6 +45,7 @@ x memset +_sfx()
 x bn array
 x pre px*9
 * bn hash
+* only 0..9 spawns (1 char)
 
 goal:
 * 280*2 - 10 special chars (twitter cost) + 53 compress.sh savings = 603
