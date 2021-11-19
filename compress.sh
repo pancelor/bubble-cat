@@ -13,4 +13,5 @@ sed -i --regexp-extended \
   -e 's/oy/J/g'\
   -e 's/fn/K/g'\
   -e 's/ty/L/g'\
+  -e 's/qq/M/g'\
   min.lua
