@@ -12,7 +12,7 @@ fc  | facing dir (0,.25,.5,.75)
 fn  | queued facing dir
 fl  | list of score floaters
 rf  | rectfill
-qq  | skip this level
+qu  | skip this level
 ty  | revert player pos
 
 b   | btn
