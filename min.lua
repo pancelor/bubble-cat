@@ -1,4 +1,4 @@
-fl={}sy=0sz=0rf=circfill::_::bn,fc={}px=3py=3for j=0,12do?"⁶!5f2c³"
+fl={}sy=0sz=0rf=circfill::_::bn,fc={}px=3py=3for j=0,12do?"⁶!5f2cC"
 add(bn,rnd(49)\1)end
 while t()<60do?"⁶1⁶c"
 b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sy)ox=px
@@ -17,8 +17,7 @@ end
 if(st)px,py,fc=ox,oy
 for a in all(fl)do
 a[3]-=1?unpack(a)
-end
-if(qu)?qu
+end?qu or""
 if(qu)goto _
 end?"⁷s8e.e.a4bd"
 ::e::goto e
