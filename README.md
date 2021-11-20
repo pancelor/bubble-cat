@@ -13,8 +13,8 @@ https://pancelor.itch.io/bubble-cat
 ## how to dev
 
 * load min.p8 in pico-8
-* edit min.lua in text editor
-* run [compress.sh] to shorten varnames; copy into tweet.p8 for final testing
+* edit min.lua in a text editor
+* run compress.sh to shorten varnames; copy into twitter / tweet.p8 for final testing
 
 ## files
 
