@@ -8,7 +8,7 @@ https://pancelor.itch.io/bubble-cat
 
 ## the tweets
 
-[TODO](https://twitter.com/pancelor)
+[here they are](https://twitter.com/pancelor/status/1461887025540337664)
 
 ## how to dev
 
