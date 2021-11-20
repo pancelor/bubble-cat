@@ -1,7 +1,7 @@
 px=3py=3fl={}sy=0sz=0rf=circfill::_::bn={}for j=1,13do
 bn[j]=rnd(49)\1end?"⁶!5f2cC"
 while t()<60do?"⁶1⁶c"
-b=btnp()qu=b>8and"⁷fb2"d=sgn(sz-sy)ox=px
+b=btnp()qu=b>8and"⁷fd"d=sgn(sz-sy)ox=px
 if(sz~=sy)sy+=d d+=6
 rf(32,32,60-t(),1)oy=py?"⁶w⁶t"..sy,24,27,4+d
 if(b%16>0)fn=b*.5938&.75
@@ -19,5 +19,5 @@ for a in all(fl)do
 a[3]-=1?unpack(a)
 end?qu or""
 if(qu)goto _
-end?"⁷s8e.e.a4bd"
+end?"⁷dafa"
 ::e::goto e
